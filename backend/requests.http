@@ -1,0 +1,10 @@
+### Create a new product
+POST http://localhost:8080/api/products
+Content-Type: application/json
+
+{
+  "name": "Vintage Leather Wallet",
+  "description": "A stylish and durable wallet made from genuine leather.",
+  "price": 49.99,
+  "imageUrl": "https://example.com/wallet.jpg"
+}
